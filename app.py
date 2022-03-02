@@ -82,21 +82,21 @@ class Subscribe:
             self.browser.get(user_id)
             user_post_id = self.render_user_post_id()
             if not user_post_id:
-                # Перевірка чи це не приватний профіль
+                # Check if this is a private profile 
                 time.sleep(random.randrange(2, 4))
             elif self.xpath_exists("//*[text()='Редагувати профіль']"):
-                # Перевірка чи це моя сторінка
+                # Check if this is not your own page 
                 time.sleep(random.randrange(2, 4))
             elif self.xpath_exists("/html/body/div[5]/div/div/div/div[3]/button[2]"):
-                # Перевірка чи це не вспливаючий Поп-ап Інстаграму
+                # Check if it is a Instagram pop-up
                 time.sleep(random.randrange(2, 4))
             elif self.xpath_exists("//*[text()='Повідомлення']"):
-                # Перевірка, чи уже підписаний на цільову сторінку.
+                # Check if you are already subscribed to the landing page. 
                 with open('already_done_user.txt', 'a') as already_done_user:
                     already_done_user.write(user_id + '\n')
                 time.sleep(random.randrange(2, 4))
             elif self.xpath_exists("/html/body/div[1]/section/nav[1]/div/div/header/div/div[2]/a/svg"):
-                # Перевірка чи це не головна сторінка інстаграм
+                # Check if this is not the main page of Instagram 
                 time.sleep(random.randrange(2, 4))
             else:
                 self.click_follow()
@@ -104,9 +104,8 @@ class Subscribe:
                 self.like_post()
                 with open('already_done_user.txt', 'a') as already_done_user:
                     already_done_user.write(user_id + '\n')
-                print('Successfully subscribed to - ' + user_id)
-                time.sleep(random.randrange(5, 10))
-                # time.sleep(random.randrange(80, 90))
+                print('Successfully subscribed to - ' + user_id
+                time.sleep(random.randrange(80, 90))
 
     def view_subscribers(self):
         time.sleep(random.randrange(3, 5))
