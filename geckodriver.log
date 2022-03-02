@@ -1,0 +1,119 @@
+1636970264682	geckodriver	INFO	Listening on 127.0.0.1:59469
+1636970267751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59470" "-no-remote" "-profile" "C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofilexNHn1q"
+1636970267982	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofilexNHn1q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59470/devtools/browser/d840d544-1c55-4f27-96b2-e2b738cdbf40
+1636970269517	Marionette	INFO	Listening on port 59476
+1636970269790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636970314724	Marionette	INFO	Stopped listening on port 59476
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637264020693	geckodriver	INFO	Listening on 127.0.0.1:50361
+1637264023719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50362" "-no-remote" "-profile" "C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileRRdVPw"
+1637264024005	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileRRdVPw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50362/devtools/browser/7a9436a8-39e6-4faa-8ec7-e65c600ea243
+1637264025633	Marionette	INFO	Listening on port 50367
+1637264025780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637264159935	Marionette	INFO	Stopped listening on port 50367
+1638373551392	geckodriver	INFO	Listening on 127.0.0.1:64371
+1638373554472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64372" "-no-remote" "-profile" "C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileDY402g"
+1638373554819	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileDY402g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64372/devtools/browser/f73eac22-d07b-4a0a-889c-470e37273422
+1638373556692	Marionette	INFO	Listening on port 64377
+1638373557186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638380344447	Marionette	INFO	Stopped listening on port 64377
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638380350648	geckodriver	INFO	Listening on 127.0.0.1:64129
+1638380353730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64130" "-no-remote" "-profile" "C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileyIV87h"
+1638380354051	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileyIV87h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64130/devtools/browser/5f509789-9e00-46f5-83e0-05649622ed67
+1638380355752	Marionette	INFO	Listening on port 64135
+1638380355781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+[GFX1-]: Failed to get descriptor for recorded texture.
+[GFX1-]: Killing GPU process due to IPC reply timeout
+1638380760622	Marionette	INFO	Stopped listening on port 64135
+[Parent 19000, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:542
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 19000, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:402
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA60026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+[GFX1-]:JavaScript error: https://www.instagram.com/artfour_ua/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/02d4939a30bd.js, line 370: Error: failed to get canvas context
+JavaScript error: https://www.instagram.com/artfour_ua/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/02d4939a30bd.js, line 370: Error: failed to get canvas context
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://www.instagram.com/static/bundles/es6/DirectMQTT.js/0bbfe4a76b2d.js, line 20: Error: Publish Timed Out
+1638382127541	Marionette	INFO	Stopped listening on port 64357
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638435423729	geckodriver	INFO	Listening on 127.0.0.1:50297
+1638435426797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50298" "-no-remote" "-profile" "C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileU6BcdP"
+1638435427089	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fotok\\AppData\\Local\\Temp\\rust_mozprofileU6BcdP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50298/devtools/browser/3c280bfa-2dd2-4c67-a794-2b7fe4bbae27
+1638435429056	Marionette	INFO	Listening on port 50303
+1638435429449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iQyr4/yX/l/ru_RU/IBNOWWXzC9t.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+JavaScript error: https://www.instagram.com/fokus_portret/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/1066aba7dd1f.js, line 370: Error: failed to get canvas context
+JavaScript error: https://www.instagram.com/fokus_portret/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/1066aba7dd1f.js, line 370: Error: failed to get canvas context
+JavaScript error: https://www.instagram.com/fokus_portret/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/1066aba7dd1f.js, line 370: Error: failed to get canvas context
+JavaScript error: https://www.instagram.com/fokus_portret/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/1066aba7dd1f.js, line 370: Error: failed to get canvas context
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638440127487	Marionette	INFO	Stopped listening on port 50303
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 23792, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
