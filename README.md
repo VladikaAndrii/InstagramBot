@@ -10,8 +10,6 @@ git clone https://github.com/VladikaAndrii/InstagramBot
 
 The InstagramBot package, included in the distribution, should be placed on the PYTHONPATH.
 
-Otherwise you can just easy_install -Z InstagramBot or pip install InstagramBot.
-
 You need to install the driver version for your operating system and place it in the project folder -
 Download the driver here - https://chromedriver.storage.googleapis.com/index.html?path=98.0.4758.102/
 
