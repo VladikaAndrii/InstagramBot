@@ -19,10 +19,6 @@ class Login:
         chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
         self.browser = webdriver.Chrome(options=chrome_options)
 
-    def close_browser(self):
-        self.browser.close()
-        self.browser.quit()
-
     def login(self):
         self.open_instagram()
         self.go_to_login_page()
@@ -106,6 +102,7 @@ class Subscribe:
                     already_done_user.write(user_id + '\n')
                 print('Successfully subscribed to - ' + user_id
                 time.sleep(random.randrange(80, 90))
+        self.close_browser()
 
     def view_subscribers(self):
         time.sleep(random.randrange(3, 5))
@@ -155,6 +152,10 @@ class Subscribe:
         except NoSuchElementException:
             exist = False
         return exist
+                      
+    def close_browser(self):
+        self.browser.close()
+        self.browser.quit()
 
 
 def check_for_matches():
